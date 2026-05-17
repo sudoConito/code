@@ -4,3 +4,11 @@ def arrays():
     array.reverse()
     for i in array:
         print(i)
+########################
+def esPalindromo(palabra):
+    # palabra=str(input("Escribe una palabra: "))
+    if palabra in palabra[::-1]:
+        print("Palindromo")
+    else:
+        print("Falso")
+    
