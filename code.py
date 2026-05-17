@@ -11,4 +11,11 @@ def esPalindromo(palabra):
         print("Palindromo")
     else:
         print("Falso")
-    
+def contadorDeVocales(palabra1):
+    vocales=0
+    for i in palabra1:
+        if i in "aeiou":
+            vocales+=1
+    print(f"Escribiste '{palabra1}'. En tu palabra\nhay {vocales} vocales en total.")
+esPalindromo("vivi")  
+contadorDeVocales("etcetera")
