@@ -25,6 +25,12 @@ def prueba():
         else:
             resultado+=x
     print(resultado)
+def par_impar(numero):
+    if numero%2==0:
+        print(f"{numero} es par")
+    else:
+        print(f"{numero} es impar")
 esPalindromo("ReCoNoCeR")  
 contadorDeVocales("etcetera")
 prueba()
+par_impar(4)
