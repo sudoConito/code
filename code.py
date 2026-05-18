@@ -7,7 +7,7 @@ def arrays():
 ########################
 def esPalindromo(palabra):
     # palabra=str(input("Escribe una palabra: "))
-    if palabra in palabra[::-1]:
+    if palabra.lower() in palabra[::-1].lower():
         print("Palindromo")
     else:
         print("Falso")
@@ -17,5 +17,14 @@ def contadorDeVocales(palabra1):
         if i in "aeiou":
             vocales+=1
     print(f"Escribiste '{palabra1}'. En tu palabra\nhay {vocales} vocales en total.")
-esPalindromo("vivi")  
+def prueba():
+    resultado=0
+    for x in [3,3,5]:
+        if x>=3:
+            resultado-=x
+        else:
+            resultado+=x
+    print(resultado)
+esPalindromo("ReCoNoCeR")  
 contadorDeVocales("etcetera")
+prueba()
