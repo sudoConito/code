@@ -30,12 +30,26 @@ def par_impar(numero):
         print(f"{numero} es par")
     else:
         print(f"{numero} es impar")
-esPalindromo("ReCoNoCeR")  
-contadorDeVocales("etcetera")
-prueba()
-par_impar(4)
+###############        
+# esPalindromo("ReCoNoCeR")  
+# contadorDeVocales("etcetera")
+# prueba()
+# par_impar(4)
+###############
 # font normal: Consolas, 'Courier New', monospace
 #font pixel: Monocraft
 
 #git config --global user.name "TuNombreDeUsuario"
 #git config --global user.email "tu-correo@email.com"
+#####################################################
+
+def start():
+    print("start")
+    return
+def update():
+    print("hola")
+    return
+def main():
+    start()
+    update()
+main()
